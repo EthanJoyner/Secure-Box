@@ -70,24 +70,25 @@ void theaterChaseRainbow(int wait) {
   }
 }
 
+
 void displayWhite(){
  colorWipe(strip.Color(255, 255, 255), 1); // Red
 }
 
 void ledAlert(){
-    colorWipe(strip.Color(255,   0,   0), 5); // Red
+    colorWipe(strip.Color(255,   0,   0), 30); // Red
     colorWipe(strip.Color(0,   0,   0), 1); // OFF
     piezoGo();
 
-    colorWipe(strip.Color(255,   255,   255), 5); // White
+    colorWipe(strip.Color(255,   255,   255), 30); // White
     colorWipe(strip.Color(0,   0,   0), 1); // OFF
     
 
-    colorWipe(strip.Color(0,   0,   255), 5); // Blue
+    colorWipe(strip.Color(0,   0,   255), 30); // Blue
     colorWipe(strip.Color(0,   0,   0), 1); // OFF
     piezoGo();
 
-    colorWipe(strip.Color(255,   255,   255), 5); // White
+    colorWipe(strip.Color(255,   255,   255), 30); // White
     colorWipe(strip.Color(0,   0,   0), 1); // OFF
 }
 

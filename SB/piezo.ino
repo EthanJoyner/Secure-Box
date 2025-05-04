@@ -5,6 +5,6 @@ void piezoGo() {
     pinMode(piezoPin, OUTPUT); // Set the piezo pin as an output
     // Play a tone at 1000 Hz for 500 ms
     digitalWrite(piezoPin, HIGH); // Turn on the buzzer
-    delay(2); // Wait for 1 second before playing the tone again
+    delay(100); // Wait for 1 second before playing the tone again
     digitalWrite(piezoPin, LOW); // Turn on the buzzer
 }
